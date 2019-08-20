@@ -6,7 +6,7 @@ const SignedInLinks = () => {
     <nav className='nav-wrapper grey darken-3'>
       <div className='container'>
         <Link to='/' className='brand-logo'>
-          ReactFirebasefs
+          ReactFirebase
         </Link>
       </div>
     </nav>
