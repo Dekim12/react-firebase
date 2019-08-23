@@ -12,6 +12,9 @@ const projectReducer = (state = initState, action) => {
       console.log(action.payload);
       return state;
     }
+    case 'ADD_PROJECT_ERROR': {
+      return state;
+    }
     default:
       return state;
   }
