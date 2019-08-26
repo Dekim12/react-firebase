@@ -9,7 +9,6 @@ const initState = {
 const projectReducer = (state = initState, action) => {
   switch (action.type) {
     case 'ADD_PROJECT': {
-      console.log(action.payload);
       return state;
     }
     case 'ADD_PROJECT_ERROR': {
