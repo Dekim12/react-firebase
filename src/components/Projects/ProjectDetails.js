@@ -26,7 +26,12 @@ function ProjectDetails({ project, auth }) {
         </div>
         <div className='card-action gret lighten-4 grey-text'>
           <div>{`Posted by ${project.authorFirstName} ${project.authorLastName}`}</div>
-          <div>12pm</div>
+          <div>
+            {project.createdAt
+              .toDate()
+              .toString()
+              .slice(4, 21)}
+          </div>
         </div>
       </div>
     </div>
