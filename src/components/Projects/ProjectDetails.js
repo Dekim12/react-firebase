@@ -4,8 +4,6 @@ import { firestoreConnect } from 'react-redux-firebase';
 import { compose } from 'redux';
 
 function ProjectDetails({ project }) {
-  console.log(project);
-
   if (!project) {
     return (
       <div className='container center'>

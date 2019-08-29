@@ -19,6 +19,7 @@ export const createProject = project => {
       .catch(error => {
         dispatch({
           type: 'ADD_PROJECT_ERROR',
+          payload: error,
         });
         console.log(error);
       });
